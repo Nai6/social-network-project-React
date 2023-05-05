@@ -1,0 +1,50 @@
+.nav_left ul li, .shortcut_links a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;  
+  width: fit-content;
+  text-decoration: none;
+  color: #626262;
+}
+
+.active{
+  text-decoration: none;
+  color: #626262;
+}
+
+.nav_left ul li img {
+  width: 25px;
+  margin-right: 15px;
+}
+
+.GH_link a{
+  text-decoration: none;
+  color: #1876f2;
+}
+
+.nav_left{
+  border-bottom: 1px solid #ccc;
+}
+
+.shortcut_links a{
+  font-size: 12px;
+}
+
+.shortcut_links a img{
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.shortcut_links p{
+  margin: 25px 0;
+  color: #626262;
+  font-weight: 500;
+}
+
+.left_sidebar{
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+}

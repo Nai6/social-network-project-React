@@ -1,0 +1,32 @@
+.paginator{
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.paginator_pages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.paginator_pages img{
+    margin-top: 2px;
+    border-radius: 50%;
+    width: 15px;
+}
+
+.paginator_pages button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.paginator_pages p {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.paginator_pages_selected {
+    font-weight: bold;
+}

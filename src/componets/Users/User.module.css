@@ -1,0 +1,46 @@
+.user {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.user p{
+    color: #626262;
+}
+
+.user img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 7px;
+}
+
+.user_info ul li{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.user_info button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor:pointer; 
+    justify-self: center;
+}
+
+.user_info button img{
+    width: 20px;
+}

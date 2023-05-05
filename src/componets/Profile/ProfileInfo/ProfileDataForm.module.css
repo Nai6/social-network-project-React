@@ -1,0 +1,74 @@
+
+.profile_edit_info img{
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile_edit_info{
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile_edit_info input {
+  outline: 0;
+  border: 0;
+  width: 350px;
+  border-bottom: 1px solid #ccc;
+  opacity: 60%;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #626262;
+  font-size: 24px;
+}
+
+.profile_edit_info button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1876F2;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: 50px;
+}
+
+.profile_edit_contacts{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.profile_edit_contacts img {
+  margin-top: 10px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.profile_edit_contacts b{
+  margin-top: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.profile_edit_contacts input {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  opacity: 60%;
+  margin-left: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #626262;
+  font-size: 16px;
+}
+
+.profile_edit_contacts_info{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #efefef;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px  5%;
+}
+
+.main_content {
+  flex-basis: 47%;
+}
+
+.login_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

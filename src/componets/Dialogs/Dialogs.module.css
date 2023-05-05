@@ -1,0 +1,88 @@
+.dialogs {
+    display: flex;
+}
+
+.dialogs_item img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.dialogs_users {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 3%;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.dialogs_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dialogs_item_names {
+    padding: 7px;
+}
+
+.dialogs_item_names a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 15px;
+}
+
+.dialogs_messages {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogs_messages button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    color: #9a9a9a;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.dialogs_messages_box {
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 3%;
+}
+
+.messages {
+    margin: 10px;
+}
+
+.dialogs_messages textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+    margin-top: 10px;
+}
+
+.dialogs_messages_input{
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 10px;
+}
