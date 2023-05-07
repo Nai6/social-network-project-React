@@ -8,6 +8,7 @@ import Users from '../../assets/images/HeaderIcons/Users.png'
 import Logo from '../../assets/images/HeaderIcons/Logo.png'
 import Search_icon from '../../assets/images/HeaderIcons/Search.png'
 import Exit from '../../assets/images/HeaderIcons/Exit.png'
+import userPhoto from '../../assets/images/CommonIcons/userPhoto.png'
 
 const Header = (props) => {
     return <header>
@@ -39,9 +40,13 @@ const HeaderNav = (props) => {
 }
 
 const UserProfile = (props) => {
-    let [profilePhoto, setProfilePhoto] = useState()
+    let [profilePhoto, setProfilePhoto] = useState(null)
+    debugger
 
-    if(!profilePhoto && props.profile) setProfilePhoto(props.profile.photos.small)
+    if(!profilePhoto && props.profile) {
+        if(props.profile.photos.small && props.profile.photos.small !=null) setProfilePhoto(props.profile.photos.small)
+        else setProfilePhoto(userPhoto)
+    }
     
     return <div className={style.header_right}>
         <div className={style.search_box}>

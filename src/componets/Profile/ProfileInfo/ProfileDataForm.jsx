@@ -3,6 +3,7 @@ import { Field, reduxForm } from 'redux-form'
 import { Input } from '../../common/FormsControl/FormsControl'
 import style from './ProfileDataForm.module.css'
 import { required } from '../../../utils/validators/validators'
+import userPhoto from '../../../assets/images/CommonIcons/userPhoto.png'
 
 const ProfileForm = (props) => {
     const inputFile = useRef(null)
@@ -18,7 +19,7 @@ const ProfileForm = (props) => {
             </div>}
 
             <div className={style.profile_edit_info}>
-                <img src={props.profile.photos.large} onClick={() => { onImgClick() }} alt='UserImg' />
+                <img src={props.profile.photos.large || userPhoto} onClick={() => { onImgClick() }} alt='UserImg' />
                 <input type={"file"} ref={inputFile} onChange={props.onMainPhotoSelected} style={{ display: 'none' }} />
                 <Field placeholder={'Your name'} name={"fullName"} component={Input} validate={required} />
                 <button>edit</button>
